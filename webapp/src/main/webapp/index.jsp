@@ -10,6 +10,7 @@ div {text-align: center;}
 
 <h1 style="color:blue;"> Welcome to DevOps Project  </h1>
 <h2 style="color:green;text-align:center;"> Account: KhangHM </h2>
+<p style="color:red;"> HCM22_FR_DEVOPS_02 </p>
 </body>
 </html>
 
