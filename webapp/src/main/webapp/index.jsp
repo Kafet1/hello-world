@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title> Welcome to DevOps Project </title>
   <style>
   html, body {
     height: 100%;
@@ -20,6 +20,9 @@
   </style>
 </head>
 <body>
+<h1 style="color:blue;text-align:center;"> SNAKE GAME </h1>
+<h2 style="color:green;text-align:center;"> Account: KhangHM </h2>
+<p style="color:red;font-weight:bold;text-align:center;"> Class: HCM22_FR_DEVOPS_02 </p>
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
