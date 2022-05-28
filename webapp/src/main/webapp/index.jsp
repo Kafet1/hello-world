@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title></title>
@@ -18,13 +19,7 @@
   }
   </style>
 </head>
-
 <body>
-
-<h1 style="color:blue;text-align:center;"> Welcome to DevOps Project  </h1>
-<h2 style="color:green;text-align:center;"> Account: KhangHM </h2>
-<p style="color:red;font-weight:bold;text-align:center;"> Class: HCM22_FR_DEVOPS_02 </p>
-
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
@@ -169,7 +164,7 @@ document.addEventListener('keydown', function(e) {
 // start the game
 requestAnimationFrame(loop);
 </script>
-
 </body>
 </html>
+
 
