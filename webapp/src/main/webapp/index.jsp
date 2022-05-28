@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Welcome to DevOps Project </title>
+  <title> </title>
   <style>
   html, body {
     height: 100%;
     margin: 0;
   }
-
   body {
-    background: black;
-    display: flex;
+    background: white;
+    display flex: flex;
     align-items: center;
     justify-content: center;
   }
   canvas {
-    border: 1px solid white;
+    border: 5px solid black;
   }
   </style>
 </head>
 <body>
+<h1 style="color:blue;text-align:center;"> DEVOPS PROJECT</h1>
 <h1 style="color:blue;text-align:center;"> SNAKE GAME </h1>
 <h2 style="color:green;text-align:center;"> Account: KhangHM </h2>
 <p style="color:red;font-weight:bold;text-align:center;"> Class: HCM22_FR_DEVOPS_02 </p>
-<canvas width="400" height="400" id="game"></canvas>
+
+<canvas width="650" height="500" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
