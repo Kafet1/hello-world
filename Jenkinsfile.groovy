@@ -1,6 +1,5 @@
-def pipeline
-node any
-  {
+pipeline {
+agent any
   stage('Build'){
     echo 'Hello World'
     }
