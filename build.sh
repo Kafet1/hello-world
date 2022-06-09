@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# remove container and image before build
+docker stop pipeline
+docker rmi kafet/tomcat:v1
+
 # maven build
 mvn install clean package
 

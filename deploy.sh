@@ -1,4 +1,5 @@
 #!/bin/bash
 
-docker run -d -it -p 8888:8080 kafet/tomcat:v1
+docker run -d -it --rm -p 8888:8080 --name pipeline kafet/tomcat:v1
+
 
