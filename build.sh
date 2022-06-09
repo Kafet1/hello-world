@@ -4,7 +4,7 @@
 mvn install clean package
 
 # copy war file
-cp /var/lib/jenkins/workspace/ci-maven3/webapp/target/webapp.war home/kafet/hello-world
+cp /var/lib/jenkins/workspace/ci-maven3/webapp/target/webapp.war .
 cp /var/lib/jenkins/workspace/ci-maven3/webapp/target/webapp.war /opt/tomcat/webapps
 
 # build Docker images
