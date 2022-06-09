@@ -7,8 +7,7 @@ docker rmi kafet/tomcat:v1
 # maven build
 mvn install clean package
 
-# copy war file
-# cp /var/lib/jenkins/workspace/ci-maven3/webapp/target/webapp.war .
+# copy war file for tomcat on local machine
 cp /var/lib/jenkins/workspace/ci-maven3/webapp/target/webapp.war /opt/tomcat/webapps
 
 # build Docker images
