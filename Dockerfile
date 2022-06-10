@@ -1,5 +1,5 @@
 # Pull base image 
-From tomcat:9.0 
+FROM tomcat:9.0 
 
 RUN apt-get update -y
 RUN rm -rf /usr/local/tomcat/webapps/*
