@@ -23,7 +23,7 @@
 </head>
 <body>
 <h1 style="color:blue;text-align:center;"> DEVOPS PROJECT</h1>
-<h1 style="color:green;text-align:center;"> SNAKE GAME VER 2.3</h1>
+<h1 style="color:green;text-align:center;"> SNAKE GAME VER 3.0</h1>
 <h2 style="color:teal;text-align:center;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Account: KhangHM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:orange"> Class: HCM22_FR_DEVOPS_02 </span> </h2>
 
 <canvas width="400" height="400" id="game"></canvas>
