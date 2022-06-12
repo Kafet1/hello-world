@@ -2,13 +2,7 @@
 
 # remove container and image before build
 docker stop pipeline
-docker rmi kafet/tomcat:v1
-
-# maven build
-mvn install clean package
-
-# copy war file for tomcat on local machine
-cp /var/lib/jenkins/workspace/ci-maven3/webapp/target/webapp.war /opt/tomcat/webapps
+docker rmi kafet:latest
 
 # build Docker images
-docker build -t kafet/tomcat:v1 -f ./Dockerfile /var/lib/jenkins/workspace/ci-maven3/webapp/target/
+docker build -t kafet:latest .
